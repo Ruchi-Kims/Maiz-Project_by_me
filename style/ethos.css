@@ -1,0 +1,43 @@
+/*Section header*/
+
+.hero-section-header-ethos{
+    background-color: black;
+    padding-left :30px;
+    padding-right: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+
+.section-ethos1,.section-ethos2,.section-ethos3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.maiz.in/wp-content/uploads/2019/01/ethos-1-1366x800.jpg");
+    
+}
+
+.section-ethos1 h2 ,.section-ethos2 h2, .section-ethos3 h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255)
+}
+
+.section-ethos1 p,.section-ethos2 p, .section-ethos3 p {
+    color: rgba(255, 255, 255);
+    
+}
+
+.section-ethos2{
+    background-image: url("https://www.maiz.in/wp-content/uploads/2019/01/ethos-2-1366x800.jpg");
+    height: 100vh;
+
+}
+
+.section-ethos3{
+    background-image: url("https://www.maiz.in/wp-content/uploads/2019/01/ethos-3-1366x800.jpg");
+    height: 100vh;
+}

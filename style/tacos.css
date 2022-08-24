@@ -1,0 +1,23 @@
+.video-catering{
+    background-color: black;
+    padding: 0 33px;
+    
+    
+}
+
+
+
+.video-catering div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.shell-tacos,.section-contact1 {
+    margin-top: 6%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0 15px 30px;
+}

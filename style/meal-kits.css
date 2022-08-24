@@ -1,0 +1,64 @@
+
+.section-meal-mexican h1{
+    font-size: 36px;
+    margin: 0px 0px 18px;
+       
+}
+
+.section-meal-mexican{
+    padding: 80.9573px 0px 0px;
+}
+
+
+
+
+
+.kit, .gourmet-kit{
+    flex: 1;
+    display: flex;
+    padding: 40.46px 0px 0px;
+}
+
+.gourmet-kit{
+    padding-top: 8%;
+}
+
+.video, .dry-kit{
+    flex: 1;
+    padding: 0 30px 30px;
+}
+
+.dry-kit{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    
+}
+
+.dly,.price{
+    flex: 1;
+    text-align: left;
+    
+}
+
+
+.price{
+    text-align: center;  
+}
+
+.price .btn-link{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.dly ul li{
+    padding-top: 10px;
+    margin: 0 px 0px 22.1px;
+}
+
+div.bordure, div.bordure-kit {
+    border-bottom:1px solid white;
+    padding-top: 6%;
+    
+    }
+
