@@ -19,4 +19,12 @@ window.addEventListener("scroll",() =>{
 
 
 /*Toggle Nav bar*/ 
+const btn = document.querySelector('#btn');
+console.log(btn)
 
+const navigationEl = document.querySelector(".navigation")
+console.log(navigationEl)
+
+btn.addEventListener('click', () =>{
+  navigationEl.classList.toggle('menu_slide')
+} )
