@@ -1,5 +1,7 @@
 // Here the code js of our code for the index html.
 
+
+/*Sticky nav bar*/ 
 const nav_barEl = document.querySelector(".nav_bar");
 console.log(nav_barEl.offsetHeight)
 
@@ -14,3 +16,7 @@ window.addEventListener("scroll",() =>{
     nav_barEl.classList.remove("sticky");
    }
 })
+
+
+/*Toggle Nav bar*/ 
+

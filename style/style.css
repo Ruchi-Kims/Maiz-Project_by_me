@@ -28,6 +28,16 @@ body{
     padding: 0 2%;
 }
 
+.Navbar__Link-toggle{
+    color: #000;
+    position: absolute;
+    cursor: pointer;
+    right: 50px;
+    display: none;
+    top: 10px;
+    font-size: 30px;
+}
+
 /*Medias queries mobile phone  background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");*/
 
 @media only screen and (max-width: 767px){
@@ -43,6 +53,19 @@ body{
         background-size: cover;
         background-position:bottom 10px right;
     }
+
+    .Navbar__Link-toggle{
+        display: block;   
+    }
+    .navigation .menu{
+        display: none;
+    }
+
+    .navigtion{
+        display: flex;
+    }
+
+
 
     .hero-section h2{
         font-style: 30px;
@@ -163,31 +186,18 @@ body{
 
     .block-navigation{
         display: none;
-    }
-
-   
-    
-    
+    }   
         
 }
     
 
 
-.nav_bar{
+.nav_bar {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
     background:#403F43;   
-}
-
-.nav_bar.sticky{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background:#000;
-    
 }
 
 .sticky{
@@ -226,12 +236,6 @@ body{
     justify-content: space-between;
     padding: 15px 0;
     align-items: center;
-    
-}
-
-.hero-section-header{
-    padding :0px 30px;
-    
 }
 
 .menu-link{
@@ -269,6 +273,18 @@ body{
     font-size: 15px;
     opacity: 1;
 }
+
+.btn-link-order{
+    background: #FBA91A ;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px 0px;
+}
+
+
 
 .navigation .btn-link:hover{
     opacity: 0.3;
