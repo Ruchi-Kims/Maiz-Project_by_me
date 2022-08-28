@@ -22,9 +22,17 @@ window.addEventListener("scroll",() =>{
 const btn = document.querySelector('#btn');
 console.log(btn)
 
-const navigationEl = document.querySelector(".navigation")
-console.log(navigationEl)
+
+
 
 btn.addEventListener('click', () =>{
-  navigationEl.classList.toggle('menu_slide')
+  let navigationEl = document.querySelector(".menu");
+  if(navigationEl.style.display === "block"){
+    navigationEl.style.display = "none";
+  }
+  else {
+    navigationEl.style.display = "block";
+  }
+
+  console.log(navigationEl.style.display)
 } )
