@@ -5,11 +5,11 @@
 const nav_barEl = document.querySelector(".nav_bar");
 console.log(nav_barEl.offsetHeight)
 
-const body_section1El = document.querySelector(".body-section1");
-console.log(body_section1El.offsetHeight)
+const fast_blockEl = document.querySelector(".fast_block");
+console.log(fast_blockEl.offsetHeight)
 
 window.addEventListener("scroll",() =>{
-   if(window.scrollY > body_section1El.offsetTop - nav_barEl.offsetHeight){
+   if(window.scrollY > fast_blockEl.offsetTop - nav_barEl.offsetHeight){
      nav_barEl.classList.add("sticky");
    }
    else{
@@ -19,14 +19,14 @@ window.addEventListener("scroll",() =>{
 
 
 /*Toggle Nav bar*/ 
-const btn = document.querySelector('#btn');
+let btn = document.querySelector('#btn');
+let navigationEl = document.querySelector(".menu");
 console.log(btn)
 
 
 
 
 btn.addEventListener('click', () =>{
-  let navigationEl = document.querySelector(".menu");
   if(navigationEl.style.display === "block"){
     navigationEl.style.display = "none";
   }
@@ -34,5 +34,8 @@ btn.addEventListener('click', () =>{
     navigationEl.style.display = "block";
   }
 
-  console.log(navigationEl.style.display)
 } )
+
+/*btn.addEventListener('click', () =>{
+  navigationEl.classList.toggle('hide');
+})*/

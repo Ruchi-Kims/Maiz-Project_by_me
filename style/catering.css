@@ -215,14 +215,66 @@
         flex: 1; 
     }
 
-    .animation_paragraph{
-        margin-top: 10%;
-        margin-bottom: 10%;
-        padding-top: 0px;
-        padding-left: 40px;
-        padding-right: 40px;
+    .center-slide{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        
+    }
+
+    .slides_quotes{
+        position: relative;
         text-align: center;
+        top: 50px;
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        
+         
+    }
+
+    .mySlide{
+       display: flex;
+
+    }
+
+    .slide-quote{
+        border: 1px solid red;
+        display: inline-block;
         width: 100%;
+        height: 300px;
+    }
+
+    
+
+      .btns{
+        position: absolute;
+        top: 30%;
+        color: white ;
+        font-size: 20px;
+        transform: translateY(-50%);
+        opacity: .7;
+        cursor: pointer;
+    }
+
+    .btns:hover{
+        opacity: 1;
+    }
+    
+    .btns.prev{
+        left: 50px;
+    }
+    
+    .btns.next{
+        right: 50px;
+    }
+
+    .dot-container{
+        text-align: center;
+        padding: 20px;
+        
     }
 
     /*Button example*/
