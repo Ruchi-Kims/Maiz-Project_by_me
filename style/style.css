@@ -438,13 +438,13 @@ align-items: center;
     .Navbar__Link-toggle{
         display: block; 
         cursor: pointer;
-        margin-left: 20px;
+        margin-left: 5px;
         margin-top: 10px;  
     }
     
     .Navbar__Link-toggle i{
         color: white;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .menu_toggle{
@@ -459,8 +459,6 @@ align-items: center;
         display: none;
     }
 
-    
-     
     .logo-container img{
         width: 100%;
         height: 40px;
@@ -469,31 +467,9 @@ align-items: center;
         padding-left: 80px;
     }
 
-    /*.navigation .menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        margin-left: 5px;
-        left: 0;
-        width: 94%;
-        top: 70px;
-        background:rgba(0, 0, 0, 0.8);   
-    }
-
-    .hero-section h2{
-        font-style: 30px;
-        margin-top: -100%; 
-    }
-
-    .text-block1 img{
-        width: 100%;
-        
-    }
     .hero-section-text-block{
         display: flex;  
-        flex-direction: column;
-       
+        flex-direction:column-reverse;
     }
 
     .text-block2{
@@ -501,19 +477,48 @@ align-items: center;
         flex-direction: column;
         justify-content: center;  
     }
-
-    .text-block2 h2, .text-block2 h3, .text-block2 p{
-        color: #000;
+    
+    .text-block2 h2{
+        font-size: 26px;
+        color:#FBA91A;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .text-block2 h3{
+        font-size: 16.5px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.8)
+    }
+    
+    .text-block2 p{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.8);  
     }
 
+    .hero-section , .section-ethos1 {
+        background-color: #403F43;
+        background: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");
+        height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
 
     .fast_block{
-
         display: flex;
         flex-direction:column ;
-        background-color: white;
-        height: 100vh;   
+        background-color: white;   
     }
+
+    .fast_block h2{
+        font-size: 26px;
+    }
+
+    .fast_block p{
+        font-size: 15px;
+    }
+
+
     
     .body-section2{
         font-family: 'Lobster', cursive;
@@ -538,6 +543,36 @@ align-items: center;
     .body-frais{
         background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-4.jpg");   
     }
+
+
+
+    /*.navigation .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        margin-left: 5px;
+        left: 0;
+        width: 94%;
+        top: 70px;
+        background:rgba(0, 0, 0, 0.8);   
+    }
+
+    .hero-section h2{
+        font-style: 30px;
+        margin-top: -100%; 
+    }
+
+    .text-block1 img{
+        width: 100%;
+        
+    }
+   
+
+    
+
+
+   
 
     
 
