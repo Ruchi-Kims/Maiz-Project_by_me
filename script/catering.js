@@ -16,3 +16,17 @@ function updateSlide(){
   mySlideEl.style.transform = `translateX(-${(currentSlide - 1) * 100}%)`
 }
 
+
+/*Initialize Swiper -->*/
+    
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      },
+       {
+        delay: 100,
+      });
+    
+
