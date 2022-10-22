@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style/ethos.css">
+    <link rel="stylesheet" href="style/library.css">
     <link rel="stylesheet" href="style/catering.css">
     <link rel="stylesheet" href="style/style.css">
     <!-- Link Swiper's CSS -->
@@ -22,41 +22,41 @@
 
 </head>
 <body>
-
-    <header class="hero-section-header-ethos sticky">
+    <header class= "nav_bar_ethos">
+        <!--Container-->
         <div class="container">
 
-            <div class="d-flex justify-content-between  ">
-                <!--Button toggle Navbar-->
-                <div class="Navbar__Link-toggle" id="btn">
-                    <i class="fa fa-bars"></i>
+                <div class="d-flex justify-content-between pd-15">
+                    <!--Button toggle Navbar-->
+                    <div class="Navbar__Link-toggle" id="btn">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                <!--Logo-->
+                    <div class="logo-container">
+                        <a href="index.html" title="Maiz Cuisine" rel="home">
+                            <img src="https://www.maiz.in/wp-content/uploads/2019/11/1-c.png" 
+                            alt="Maiz"></a>
+                     </div>
+                <!--NavBar -->
+                     <nav class="navigation">
+                         <ul  class="menu_toggle">
+                             <li> <a class="menu-link" href="index.html">Home</a> </li>
+                             <li> <a class="menu-link" href="ethos.html">Ethos</a> </li>
+                             <li> <a class="menu-link active" href="catering.html">Catering</a> </li>
+                             <li> <a class="menu-link" href="nutrition.html">Nutrition</a> </li>
+                             <li> <a class="menu-link" href="menu.html">Menu</a> </li>
+                             <li> <a class="menu-link" href="meal-kits.html">Meal</a> </li>
+                             <li> <a class="menu-link" href="tacos.html">Tacos</a> </li>
+                             
+
+                         </ul>
+                     </nav>
+                <!--Button Order Now-->
+                     <div><a class="btn-link-order" href="#">Order now</a></div>
+
                 </div>
-            <!--Logo-->
-                <div class="logo-container">
-                    <a href="index.html" title="Maiz Cuisine" rel="home">
-                        <img src="https://www.maiz.in/wp-content/uploads/2019/11/1-c.png" 
-                        alt="Maiz"></a>
-                 </div>
-            <!--NavBar -->
-                 <nav class="navigation">
-                     <ul>
-                         <li> <a class="menu-link" href="index.html">Home</a> </li>
-                         <li> <a class="menu-link" href="ethos.html">Ethos</a> </li>
-                         <li> <a class="menu-link active" href="catering.html">Catering</a> </li>
-                         <li> <a class="menu-link" href="nutrition.html">Nutrition</a> </li>
-                         <li> <a class="menu-link" href="menu.html">Menu</a> </li>
-                         <li> <a class="menu-link" href="meal-kits.html">Meal</a> </li>
-                         <li> <a class="menu-link" href="tacos.html">Tacos</a> </li>
-                         
-
-                     </ul>
-                 </nav>
-            <!--Button Order Now-->
-                 <div><a class="btn-link-order" href="#">Order now</a></div>
-
-            </div>
-    </div>
-
+        </div>
+        
     </header>
             <!--section video-->
     <section class="video-catering">
@@ -320,10 +320,7 @@
         </div>
 
         <section>
-<div class="flexc">
-    <q>para1</q>
-    <q>para2</q>
-</div>
+
             <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">

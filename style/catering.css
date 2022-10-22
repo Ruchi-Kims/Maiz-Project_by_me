@@ -1,6 +1,8 @@
+
+
 .video-catering{
     background-color: black;
-    padding: 0 33px;
+    padding: 50px 33px;
     
     
 }
@@ -223,7 +225,7 @@
     }
 
     /*Button example*/
-    #btn{
+    /*#btn{
         background: green;
         text-align: center;
         border: green;
@@ -232,7 +234,7 @@
         align-items: center;
         height: 40px;
         margin: 40px 40px;
-    }
+    }*/
 
 
 
@@ -256,10 +258,7 @@
         height: 300px;
       }
 
-      .flexc{
-        display: flex;
-        flex-direction: column;
-      }
+      
 
       .swiper-slide {
         display: flex;

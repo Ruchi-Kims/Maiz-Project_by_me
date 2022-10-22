@@ -103,20 +103,15 @@ nav ul{
 }
 
 .hero-section-text-block{
-    flex: 1;
     display: flex;  
-}
+}  /*IMPORTANT*/
 
-.text-block1, .text-block2{
-    flex: 1;
-    height: 100%;
-}
 
 .text-block2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 5%;
+    justify-content:end;
+    padding-left: 60%;
     margin-top: 10%;
 }
 
@@ -141,7 +136,8 @@ nav ul{
     height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center left;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 /*Section body */
@@ -423,15 +419,14 @@ align-items: center;
     
 
    .hero-section{
-        display: flex;
-        flex-direction: column;
+        
         text-align: center;
         background-color: #403F43;
         background: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");
         height: 100%; 
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom 10px right;
+        background-position:30px -20px, 10px left center 10px;
     }
 
        
@@ -467,42 +462,18 @@ align-items: center;
         padding-left: 80px;
     }
 
-    .hero-section-text-block{
-        display: flex;  
-        flex-direction:column-reverse;
-    }
+    
 
-    .text-block2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
-    }
     
-    .text-block2 h2{
-        font-size: 26px;
-        color:#FBA91A;
-        margin-top: 50px;
-        margin-bottom: 15px;
-    }
-    
-    .text-block2 h3{
-        font-size: 16.5px;
-        margin-bottom: 20px;
-        color: rgba(255, 255, 255, 0.8)
-    }
-    
-    .text-block2 p{
-        font-size: 15px;
-        color: rgba(255, 255, 255, 0.8);  
-    }
-
-    .hero-section , .section-ethos1 {
+    /*.hero-section , .section-ethos1 {
         background-color: #403F43;
         background: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");
-        height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
-        background-repeat: no-repeat;
-        background-position: center bottom;
-    }
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center  center;
+        
+        
+    }*/
 
     .fast_block{
         display: flex;

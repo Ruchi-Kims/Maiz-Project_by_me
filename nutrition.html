@@ -8,39 +8,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/ethos.css">
+    <link rel="stylesheet" href="style/library.css">
     <link rel="stylesheet" href="style/nutrition.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Nutrition</title>
 </head>
 <body>
-    <header class="hero-section-header-ethos sticky">
+    <header class= "nav_bar_ethos">
+        <!--Container-->
         <div class="container">
-            <div class="d-flex justify-content-between">
 
-                <div class="logo-container">
-                    <a href="index.html" title="Maiz Cuisine" rel="home">
-                        <img src="https://www.maiz.in/wp-content/uploads/2019/11/1-c.png" alt="Maiz"></a>
+                <div class="d-flex justify-content-between pd-15">
+                    <!--Button toggle Navbar-->
+                    <div class="Navbar__Link-toggle" id="btn">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                <!--Logo-->
+                    <div class="logo-container">
+                        <a href="index.html" title="Maiz Cuisine" rel="home">
+                            <img src="https://www.maiz.in/wp-content/uploads/2019/11/1-c.png" 
+                            alt="Maiz"></a>
+                     </div>
+                <!--NavBar -->
+                     <nav class="navigation">
+                         <ul  class="menu_toggle">
+                             <li> <a class="menu-link" href="index.html">Home</a> </li>
+                             <li> <a class="menu-link" href="ethos.html">Ethos</a> </li>
+                             <li> <a class="menu-link" href="catering.html">Catering</a> </li>
+                             <li> <a class="menu-link active" href="nutrition.html">Nutrition</a> </li>
+                             <li> <a class="menu-link" href="menu.html">Menu</a> </li>
+                             <li> <a class="menu-link" href="meal-kits.html">Meal</a> </li>
+                             <li> <a class="menu-link" href="tacos.html">Tacos</a> </li>
+                             
+
+                         </ul>
+                     </nav>
+                <!--Button Order Now-->
+                     <div><a class="btn-link-order" href="#">Order now</a></div>
+
                 </div>
-        
-                <nav class="navigation">
-                    <ul class="menu">
-                        <li class="menu-item"> <a class="menu-link" href="index.html">Home</a> </li>
-                        <li class="menu-item"> <a class="menu-link" href="ethos.html">Ethos</a> </li>
-                        <li class="menu-item"> <a class="menu-link" href="catering.html">Catering</a> </li>
-                        <li class="menu-item"> <a class="menu-link active" href="nutrition.html">Nutrition</a> </li>
-                        <li class="menu-item"> <a class="menu-link" href="menu.html">Menu</a> </li>
-                        <li class="menu-item"> <a class="menu-link" href="meal-kits.html">Meal kits</a> </li>
-                        <li class="menu-item"> <a class="menu-link" href="tacos.html">Tacos</a> </li>
-                    </ul>
-        
-                    <a class="btn-link" href="#">Order now</a>
-                </nav>
-                 
-            </div>
         </div>
-
+        
     </header>
+
 
     <section class="section-nutrition">
        
