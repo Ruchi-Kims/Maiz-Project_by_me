@@ -336,18 +336,16 @@ footer{
 .section-footer2{
 padding-top: 20px;
 color: rgba(255, 255, 255, 0.8);
-width: 100%;
-height: 80px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
-.footer2-2{
-    display: flex;
+.footer2-2 a{
+    display: flex; 
 }
 
-.footer2-2 .menu-link{
+.footer2-2 .menu-link-footer{
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     text-transform: none;
@@ -355,12 +353,12 @@ align-items: center;
     font-weight: 500;
 }
 
-.footer2-2 .menu-link:hover{
+.footer2-2 .menu-link-footer:hover{
     border-bottom: none;
     color:  #DA7E07; 
 }
 
-.footer2-2 .menu-link img:hover{
+.footer2-2 .menu-link-footer img:hover{
     border-bottom: none;
     background:  blue; 
     border: 1px solid blue;
@@ -484,8 +482,8 @@ align-items: center;
         width: 100%;
         height: 40px;
         margin-top: 5px;
-        padding-right: 40px;
-        padding-left: 80px;
+        padding-right: 110px;
+        padding-left: 110px;
     }
 
         /*Main --- Section  --> fast_block*/
@@ -516,6 +514,7 @@ align-items: center;
     }
 
     /*footer section*/
+    /*Section footer 1*/
     .section-footer1{
         flex-direction: column;
         }
@@ -532,6 +531,24 @@ align-items: center;
 
         .block-navigation{
             display: none;
+        }
+
+    /*Section footer 2 */
+    .section-footer2{
+        flex-direction: column;
+        }
+
+        .color-p{
+            font-size: 14px;
+            font-weight: 500;
+        } 
+
+        .footer2-1 p{
+            font-size: 14px;
+        }
+
+        .footer2-2 a{
+            flex-direction: column-reverse;
         }
     
 
@@ -565,15 +582,7 @@ align-items: center;
 
     
 
-    .section-footer2{
-        margin-top: 220px;
-        color: rgba(255, 255, 255, 0.8);
-        width: 100%;
-        height: 80px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
+    
 
        hr{
         display: none;
@@ -585,13 +594,7 @@ align-items: center;
         justify-content:flex-start
     }
 
-    .footer2-2 .color-p{
-        color: rgba(0, 0, 0, 0.8);
-        text-decoration: none;
-        text-transform: none;
-        font-size: 14px;
-        font-weight: 500;
-    }   */    
+     */    
 }
 
 
