@@ -136,8 +136,8 @@ nav ul{
     height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center;
+    
 }
 
 /*Section body */  /*Main --- Section  --> fast_block*/
@@ -178,12 +178,12 @@ nav ul{
     margin: 6% 0;
     box-shadow: 10px 5px 5px gray;
 }
-
+/*body section 2*/
 .body-section2{
     font-family: 'Lobster', cursive;
     display: flex;
-    background-color: white;
-    height: 100vh; 
+    background-color: white; 
+    height: 100vh;
 }
 
 .body-section2 h2{
@@ -216,15 +216,18 @@ nav ul{
     background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-4.jpg"); 
    
 }
-
+/*body-section3*/
 .body-section3{
     width:100%;
-    height:346.28px ;
     padding-top: 8%;
     padding-bottom: 107.90px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section3-h3{
+    text-align: center;
 }
 
 .section3-nav .btn-link, .section4-nav .btn-link{
@@ -265,7 +268,6 @@ nav ul{
 /*Debut section-footer1*/
 .section-footer1{
     width: 100%;
-    height: 220px;
     display: flex;
     justify-content: space-between;
     flex: 1;
@@ -286,12 +288,16 @@ nav ul{
     flex: 1;
 }
 
-.blockp1 .menu-link ,.blockp2 .menu-link{
-    text-decoration: underline;
+.blockp1 .menu-link-card ,.blockp2 .menu-link-card{
+    text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
-    border-bottom: none;
+    color: #F8F8FF;
+}
+
+.blockp1 .menu-link-card:hover ,.blockp2 .menu-link-card:hover{
+    color: #DA7E07;
 }
 
 .block-navigation{
@@ -422,8 +428,8 @@ align-items: center;
         background-color: #403F43;
         background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg"); 
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
+        background-size: cover;
+        background-position: bottom center;
     }
 
     .text-block2{
@@ -488,17 +494,45 @@ align-items: center;
         background-color: white;   
     }
 
-    
-
-    .body-authentique, .body-santé, .body-frais{
-        width: 100%;
-        background-size: cover ;
-        background-position: center center;
-        background-repeat: no-repeat;
-        
-        
+    /*body section 2*/
+    .body-section2{
+        flex-direction: column ; 
     }
     
+/*100vh de la hauteur a determiné*/
+    .body-authentique, .body-santé, .body-frais{
+        background-size: cover ;
+        background-position: center center;
+        background-repeat: no-repeat;  
+    }
+
+    /*section 3*/
+    .section3-h3{
+        margin-top: 10%;
+    }
+
+    .section3-nav .btn-link, .section4-nav .btn-link{
+        font-size: 15px;
+    }
+
+    /*footer section*/
+    .section-footer1{
+        flex-direction: column;
+        }
+
+        .block-footer1{
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .blockp1 p, .blockp2 p{
+            font-size: 12px;
+        }
+
+        .block-navigation{
+            display: none;
+        }
     
 
 
@@ -526,64 +560,10 @@ align-items: center;
     }
    
 
-    
-
-
-   
 
     
 
-    .body-section3{
-        width:100%;
-        padding: 5px 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section3-h3{
-        margin-top: 10%;
-        text-align: center;
-    }
-
-    .section3-nav .btn-link{
-    background: #DA7E07 ;
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-    margin-top: 5px;
-    padding: 5px;
-    opacity: 1;
-    transition: all 2s ease;
-    }
-
-    .body-section4{
-    width: 100%;
-    height: 100vh;
-    background-color:#F8F8FF;
-    background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-Catering-new-extended-1.jpg");
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    padding-bottom: 107.90px;
-    }
-
-    .section-footer1{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 20px;
-    }
-
-    .block-footer1{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 10px
-    }
+    
 
     .section-footer2{
         margin-top: 220px;
