@@ -19,14 +19,21 @@ window.addEventListener("scroll",() =>{
 
 
 /*Toggle Nav bar*/ 
-let btn = document.querySelector('#btn');
-let navigationEl = document.querySelector(".menu");
+const btn = document.querySelector('#btn');
 console.log(btn)
 
 
 
+function classToggle(){
+  const navigationEl = document.querySelector(".navigation");
+    navigationEl.classList.toggle("menu_addtoggle");
 
-btn.addEventListener('click', () =>{
+}
+
+btn.addEventListener('click', classToggle)
+
+
+/*btn.addEventListener('click', () =>{
   if(navigationEl.style.display === "block"){
     navigationEl.style.display = "none";
   }
@@ -34,7 +41,7 @@ btn.addEventListener('click', () =>{
     navigationEl.style.display = "block";
   }
 
-} )
+} )*/
 
 /*btn.addEventListener('click', () =>{
   navigationEl.classList.toggle('hide');
