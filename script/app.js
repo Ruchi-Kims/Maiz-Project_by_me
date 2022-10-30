@@ -18,19 +18,18 @@ window.addEventListener("scroll",() =>{
 })
 
 
-/*Toggle Nav bar*/ 
-const btn = document.querySelector('#btn');
-console.log(btn)
+/*Navbar manipulation*/
 
-
+const navbarToggle = document.querySelector(".bars");
+console.log(navbarToggle);
 
 function classToggle(){
-  const navigationEl = document.querySelector(".navigation");
-    navigationEl.classList.toggle("menu_addtoggle");
+    const navbarMenu = document.querySelector(".navigation");
+    navbarMenu.classList.toggle("menu_toggle");
 
 }
 
-btn.addEventListener('click', classToggle)
+navbarToggle.addEventListener('click', classToggle)
 
 
 /*btn.addEventListener('click', () =>{

@@ -13,10 +13,14 @@
     padding: 0 2%;
 }
 
-.Navbar__Link-toggle {
-    display: none;
-    
-    
+header{
+    background-color: #403F43;
+    background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");
+    height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /*Navbar fixed*/
@@ -45,10 +49,32 @@
     color: #fff;
 }
 
-/*Menu navbar*/
-nav ul{
-    display: flex;
+/*--------------------Menu navbar------------------------*/
+
+
+/*Buttons bars*/
+.nav_bar i{
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    
 }
+
+/*-----------------------Navigation---------*/
+.navigation  ul{
+    display: flex;
+    
+}
+
+ul li{
+    padding: 0px 10px;
+}
+
+
+
+
+
 
 .hero-section-header-ethos{
     display: flex;
@@ -94,27 +120,27 @@ nav ul{
     font-style: 5px;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
-    padding: 5px 5px;
+    padding: 7px 7px;
     margin: 0px 0px;
-    transition: all 1s ease;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    
+    
+    
 }
 
  .btn-link:hover, .btn-link-order:hover{
     opacity: 0.5;
 }
 
-.hero-section-text-block{
-    display: flex;  
-}  /*IMPORTANT*/
+  /*IMPORTANT*/
 
 
 .text-block2{
-    display: flex;
-    flex-direction: column;
-    justify-content:end;
-    padding-left: 60%;
-    margin-top: 10%;
+    
+    padding-left: 55%;
+    padding-top: 10%;
 }
 
 .text-block2 h2{
@@ -131,8 +157,8 @@ nav ul{
     color: rgba(255, 255, 255, 0.8);
     
 }
-/*hero-section et ethos style*/
-.hero-section , .section-ethos1 {
+/* ethos style*/
+.section-ethos1 {
     background-color: #403F43;
     background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");
     height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
@@ -423,21 +449,66 @@ align-items: center;
 }
 
 @media only screen and (max-width: 600px){
-    
 
-   .hero-section{
-        background-color: #403F43;
-        background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg"); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center;
+    /*----------------------------------Toggle menu----------------------------------*/
+    .nav_bar i{
+        display: block; 
+        left: 20px; 
+        cursor: pointer;
     }
 
+    .navigation.menu_toggle{
+        
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        transition: all 2s ease;
+    }
+
+    .navigation ul{
+        top: 100px;
+        left: 10px;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(64, 63, 67, 0.0);
+        width: 100%;
+    }
+
+    ul li{
+        padding: 12px 0px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    
+
+    .logo-container img{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        padding-right: 110px;
+        padding-left: 160px;
+    }
+
+    .btn-link-order{
+        top: 10px;
+        right: 40px;
+        padding: 5px 5px;
+    }
+
+
+
+
     .text-block2{
-        justify-content:center;
-        padding-left: 10%;
-        margin-top: 20%;
+        
         text-align: center;
+        padding-left: 20px;
+        padding-top: 30%;
     }
 
     .text-block2 h2{
@@ -456,57 +527,6 @@ align-items: center;
         
     }
 
-    /*Toggle menu*/
-
-    .navigation.menu_addtoggle{
-        top: 0;
-        left: 0;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(255, 255, 255, 0.01);
-        backdrop-filter: blur(2px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 2s ease;
-    }
-
-    .navigation{
-        display: none;
-    }
-
-    .navigation .menu_toggle{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-       
-    .Navbar__Link-toggle{
-        display: block; 
-        cursor: pointer;
-        margin-left: 5px;
-        margin-top: 10px;  
-    }
-    
-    .Navbar__Link-toggle i{
-        color: white;
-        font-size: 25px;
-    }
-
-    .menu_toggle li{
-        padding: 15px 0px;
-    }
-
-
-    
-    .logo-container img{
-        width: 100%;
-        height: 40px;
-        margin-top: 5px;
-        padding-right: 110px;
-        padding-left: 110px;
-    }
 
         /*Main --- Section  --> fast_block*/
     .fast_block{
