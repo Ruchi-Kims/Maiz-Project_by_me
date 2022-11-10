@@ -13,7 +13,7 @@
     padding: 0 2%;
 }
 
-header{
+.header_navbar{
     background-color: #403F43;
     background-image: url("https://www.maiz.in/wp-content/uploads/2019/11/Banner-1-new1-1366x800-1-com.jpg");
     height: 100vh; /*prends  toute la haauteur de  la vue du navigateur*/
