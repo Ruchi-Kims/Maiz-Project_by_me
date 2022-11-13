@@ -34,3 +34,15 @@
     background-image: url("https://www.maiz.in/wp-content/uploads/2019/01/ethos-3-1366x800.jpg");
     height: 100vh;
 }
+
+@media only screen and (max-width: 600px){
+
+    /*----------------------------------Toggle menu----------------------------------*/
+    .nav_bar i{
+        display: block; 
+        left: 20px; 
+        cursor: pointer;
+    }
+}
+
+/*idee verifie navbar*/
