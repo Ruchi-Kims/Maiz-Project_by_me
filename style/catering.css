@@ -260,7 +260,7 @@
 
       
 
-      .swiper-slide {
+      .swiper-slide, .carousel-slide {
         display: flex;
         justify-content: calc(10px + 100px);
         flex-direction: column;
@@ -269,6 +269,7 @@
         background: #fff;
         padding: 0px 70px;
         font-family: 'Kalam', cursive;
+        
 
         /* Center slide text vertically */
         display: -webkit-box;
@@ -291,6 +292,46 @@
         height: 100%;
         object-fit: cover;
       }
+
+      /*Slides chevron*/
+.fa-solid{
+    font-size: 50px;  
+}
+
+.container_chevrons{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-bottom: 80px;
+}
+
+.prev-btn{
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px rgba(65, 67, 68, 0.603) solid;
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+
+}
+
+.next-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    border-radius: 50%;
+    border: 1px rgba(65, 67, 68, 0.603) solid;
+}
+
+.container_slides{
+    margin-top: 70px;
+}
+
+
+
+
 
 
 
